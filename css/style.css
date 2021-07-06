@@ -13,7 +13,7 @@ a{
     text-decoration: none;
 }
 body{
-    font-family: 'Noto Sans',
+    font-family: 'Montserrat',
     sans-serif;
 }
 /* header part start */
@@ -82,7 +82,8 @@ h3{
     font-weight: 600;
 }
 p{
-    font-size: 22px;
+    font-size: 20px;
+    line-height: 1.6;
 }
 .special{
     color: orange;
@@ -102,13 +103,16 @@ p{
 
 /* about part end */
 .background{
-    background-image: url(../images/shapes/7.png);
+    background-image: url(../images/7.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 #image_down img {
     padding-top: 100px;
+}
+.order_food h2{
+    padding-top: 15px;
 }
 /* about part end */
 
@@ -136,6 +140,13 @@ p{
     padding-bottom: 50px;
    
 }
+.image_size h3,
+.recipies_part h2{
+    padding-bottom: 20px;
+}
+.image_size p{
+    
+}
 /* recipe part end */
 
 /* Contact part start */
@@ -157,15 +168,19 @@ label{
     font-weight: 700;
     
 }
-input{
-    padding: 10px;
+textarea,
+input[type=tel],
+input[type=email],
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
     margin-left: 20px;
     border-radius: 20px;
     display: inline-block;
 }
 .btn{
     margin-top: 30px;
-    padding: 20px 40px;
+    padding: 15px 30px;
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
@@ -173,6 +188,9 @@ input{
     color: white;
     border-radius: 30px;
     transition: 0.4s;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
     
 }
 .btn:hover{
